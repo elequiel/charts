@@ -22,7 +22,6 @@ resources:
 configMap:
   AZP_URL: ""
   AZP_POOL: Default
-  AZP_AGENT_NAME: helm-ado-agent-01
 
 secret:
   AZP_TOKEN: ""
