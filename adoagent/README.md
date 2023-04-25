@@ -18,6 +18,6 @@ helm upgrade --install helm-adoagent -n adoagent . \
 	--set image.tag=1.0 \
 	--set configMap.AZP_POOL=containered-agent-pool \
 	--set configMap.AZP_URL=https://dev.azure.com/zeksantos \
-	--set configMap.AZP_AGENT_NAME=helm-ado-agent-01 \
+	--set replicaCount=3 \
 	--set secret.AZP_TOKEN=$PAT
 ```
