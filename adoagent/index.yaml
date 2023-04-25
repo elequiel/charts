@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   adoagent:
   - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2023-04-25T11:30:21.2985002-03:00"
+    description: A Helm chart for create azure devops agent
+    digest: c589ca87f3b053e3318c4181c9317fe5de71a21f295abd1e06809a252dac0f0b
+    name: adoagent
+    type: application
+    urls:
+    - https://elequiel.github.io/charts/adoagent/adoagent-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-04-25T10:13:38.9081703-03:00"
+    created: "2023-04-25T11:30:21.2979835-03:00"
     description: A Helm chart for Kubernetes
     digest: ec1695f57ebeaf4bea50f5e52d9600c30d300e2f4eba1deb033b17d187e27ae2
     name: adoagent
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://elequiel.github.io/charts/adoagent/adoagent-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-25T10:13:38.9071317-03:00"
+generated: "2023-04-25T11:30:21.2964286-03:00"
