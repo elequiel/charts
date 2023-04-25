@@ -3,12 +3,12 @@ entries:
   adoagent:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-04-25T09:42:12.595504-03:00"
+    created: "2023-04-25T09:57:50.3281983-03:00"
     description: A Helm chart for Kubernetes
     digest: ec1695f57ebeaf4bea50f5e52d9600c30d300e2f4eba1deb033b17d187e27ae2
     name: adoagent
     type: application
     urls:
-    - https://elequiel.github.io/charts/adoagent/adoagent-0.1.0.tgz
+    - https://elequiel.github.io/charts/adoagent-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-25T09:42:12.5819121-03:00"
+generated: "2023-04-25T09:57:50.3256161-03:00"
