@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-{{ include "adoagent.name" . }}
+  labels:
+    {{- include "adoagent.labels" . | nindent 4 }}
+
+data:
+  {{- range $key, $value := .Values.configMap }}
+  {{ $key }}: {{ default "" $value }}
+  {{- end }}
